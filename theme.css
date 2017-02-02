@@ -3,7 +3,6 @@
 }
 
 .mini-layout-sidebar {
-  border: black 2px solid;
   float: left;
   width: 22%;
   height: 300%;
@@ -16,7 +15,6 @@
   float: Right;
   height: 400%;
   width: 75.0%;
-  border: 2px solid black;
   margin-top: 10px;
   padding-left: 25px;
   padding-bottom: 25px;
