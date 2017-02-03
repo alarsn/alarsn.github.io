@@ -9,13 +9,14 @@ header {
   
 }
 
-.photo {
+.contact_info {
   border: black 2px solid;
   float: right;
-  margin-right: 10%;
+  margin-right: 10rem;
   margin-top: 5rem;
+  margin-bottom: 10rem;
   padding: 10px;
-  width: 30%;
+  width: 20%;
   height: 20%;
   
 }
@@ -33,15 +34,22 @@ header {
 
 .skills, .software {
   float: right;
-  width: 34.375%;
-  margin-right: 20px;
+  width: 34%;
+  margin-right: 10px;
 }
 
 .footer {
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  padding: 5px;
   background-color: #efefef;
   text-align: center;
+}
+
+img {
+float: right;
+margin-right: 25px;
+width: 20%;
+height: 20%;
 }
