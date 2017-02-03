@@ -18,7 +18,16 @@ header {
   padding: 10px;
   width: 20%;
   height: 20%;
+  position: absolute;
   
+}
+
+img {
+float: right;
+margin-right: 25px;
+width: 20%;
+height: 20%;
+position: absolute;
 }
 
 .jobs {
@@ -47,9 +56,3 @@ header {
   text-align: center;
 }
 
-img {
-float: right;
-margin-right: 25px;
-width: 20%;
-height: 20%;
-}
