@@ -39,7 +39,8 @@ img {
 
 #timeline {
     margin-top: 200px;
-    margin-left: 175px;
+    margin-left: 100px;
+  margin-right: 100px;
     text-shadow: 2px 2px black;
     font-size: 18px;
     text-align: center;
