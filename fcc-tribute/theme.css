@@ -38,20 +38,19 @@ img {
 
 
 #timeline {
-    margin-top: 200px;
-    margin-left: 50px;
+  margin-top: 200px;
+  margin-left: 50px;
   margin-right: 100px;
-    text-shadow: 2px 2px black;
-    font-size: 18px;
-    text-align: center;
+  font-size: 18px;
+  text-align: center;
 }
 
 .dates {
   font-weight: bold;
 }
 
-.goldtext {
-  color: Gold;
+li {
+  color: black;
 }
 
 li {
