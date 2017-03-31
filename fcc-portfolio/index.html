@@ -1,66 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
-<meta charset="UTF-8">
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+<head>
+  <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  
+  
+</head>
 
 <body>
   <!--Header-->
-  <nav class="navbar navbar-default navbar-fixed-top">
-    <div class="container">
-      <h1>Aaron Larson</h1>
-    </div>
-  </nav>
-
-  <!--Main section-->
-  <div class="container">
-    <div class="container" id="summary">
-      <p>Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words
-        Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words
-        Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words
-        Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words</p>
-    </div>
-
-    <div class="container">
-      <h3>Projects</h3>
-      <div class="row">
-        <div class="col-xs-5 thumb">
-          <a class="thumbnail" href="#">
-            <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
-        <div class="col-xs-5 thumb">
-          <a class="thumbnail" href="#">
-            <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
+  <div class="container-fluid">
+    <!--Nav Bar-->
+    <div class="row text-center">
+      <div class="col-md-12">
+        <h1>Aaron Larson</h1>
       </div>
+      <div class="col-md-12">
+        <h4><a href="#summary">Summary</a></h4>
+        <h4><a href="#projects">Projects</a></h4>
+        <h4><a href="#contact">Contact</a></h4>
+      </div>
+    </div>
 
-      <div class="row">
-        <div class="col-xs-5 thumb">
-          <a class="thumbnail" href="#">
-            <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-          </a>
+    <div>
+      <hr>
+    </div>
+
+    <!--Main section-->
+    <div class="row">
+      <div class="col-xs-10">
+        <p id="summary">Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words</p>
+        <p>words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other</p>
+        <p>Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating</p>
+        <p>Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating</p>
+        <p>words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other lating words Lorem ipsum other</p>
         </div>
-        <div class="col-xs-5 thumb">
-          <a class="thumbnail" href="#">
-            <img class="img-responsive" src="http://placehold.it/400x300" alt="">
-          </a>
-        </div>
+    </div>
+
+    <!--Projects first row-->
+    <div class="row text-center" id="projects">
+      <div class="col-md-3 responsive-image">
+        <img src="http://placehold.it/200x150" alt="placeholder">
+        <h5 class="text-uppercase">Project 1</h5>
+      </div>
+      <div class="col-md-3 responsive-image">
+        <img src="http://placehold.it/200x150" alt="placeholder">
+        <h5 class="text-uppercase">Project 2</h5>
+      </div>
+    </div>
+
+    <!--Projects second row-->
+    <div class="row text-center projects">
+      <div class="col-md-3 responsive-image">
+        <img src="http://placehold.it/200x150" alt="placeholder">
+        <h5 class="text-uppercase">Project 3</h5>
+      </div>
+      <div class="col-md-3 responsive-image">
+        <img src="http://placehold.it/200x150" alt="placeholder">
+        <h5 class="text-uppercase">Project 4</h5>
       </div>
     </div>
   </div>
-
+  </div>
 
   <!--Footer-->
-  <footer class="footer" id="contact">
-    <a href="#"><i class="fa fa-twitter fa-2x"></i></a>
-    <a href="#"><i class="fa fa-codepen fa-2x"></i></a>
-    <a href="#"><i class="fa fa-github fa-2x"></i></a>
-    <a href="#"><i class="fa fa-envelope fa-2x"></i></a>
-    <a href="#"><i class="fa fa-mobile fa-2x"></i></a>
-    <a href="#"><i class="fa fa-phone fa-2x"></i></a>
-  </footer>
+  <div class="row foot" id="contact">
+    <div class="col-xs-3 text-center">
+      <a href="#"><i class="fa fa-codepen fa-2x responsive-image"></i></a>
+    </div>
+    <div class="col-xs-3 text-center">
+      <a href="#"><i class="fa fa-github fa-2x responsive-image"></i></a>
+    </div>
+    <div class="col-xs-3 text-center">
+      <a href="#"><i class="fa fa-envelope fa-2x responsive-image"></i></a>
+    </div>
+    <div class="col-xs-3 text-center">
+      <a href="#"><i class="fa fa-mobile fa-2x responsive-image"></i></a>
+    </div>
+  </div>
+
 </body>
 
 </html>
