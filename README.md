@@ -1,6 +1,6 @@
 Aaron Larson
 
-alarsn@gmail.com | (608) 877-1023
+
 
 SUMMARY
 
